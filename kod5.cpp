@@ -1,8 +1,9 @@
 #include <iostream>
+#include <windows.h>
 using namespace std;
 
 int main() {
-    
+    SetConsoleOutputCP(65001);
     int arr[] = {3, 5, 7, 9, 10, 8, 12}; 
     int n = sizeof(arr) / sizeof(arr[0]);
 

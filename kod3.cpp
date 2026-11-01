@@ -1,8 +1,9 @@
 #include <iostream>
+#include <windows.h>
 using namespace std;
 
 int main() {
-    // Массив из 7 целых чисел
+    SetConsoleOutputCP(65001);
     int arr[7] = {5, 2, 8, 1, 9, 4, 7}; 
     int n = 7;
 
